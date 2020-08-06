@@ -1,0 +1,47 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  height: 250px;
+  margin: 20px;
+  border-top: 1px solid darkgrey;
+  flex-grow: 1;
+}
+.info-container {
+  margin: 10px 0;
+}
+.font-name,
+.font-author {
+  font-family: 'Open Sans';
+  margin: 5px;
+  font-size: 90%;
+  font-weight: 700;
+  color: darkgrey;
+}
+
+.font-name {
+  color: black;
+}
+
+.show-text {
+  width: 270px;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 220%;
+  line-height: 40px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.plus {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+.btn-style {
+  display: flex;
+  justify-content: space-evenly;
+}

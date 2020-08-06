@@ -1,0 +1,20 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid darkgrey;
+  border-radius: 0;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+  padding: 2px;
+}
+.input {
+  border: none;
+  font-size: 20px;
+  height: 100%;
+  font-family: 'Open Sans';
+  width: 30%;
+  outline: none;
+}
